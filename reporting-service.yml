@@ -1,0 +1,4 @@
+reporting:
+  refresh-interval: 15
+  max-records: 20000
+  export-format: PDF

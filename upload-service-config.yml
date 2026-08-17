@@ -1,3 +1,0 @@
-upload:
-  max-file-size: 100MB
-  chunk-size: 10MB

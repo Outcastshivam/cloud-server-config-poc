@@ -1,0 +1,4 @@
+billing:
+  retry-count: 3
+  payment-timeout: 30
+  max-concurrent-jobs: 25

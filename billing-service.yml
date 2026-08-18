@@ -3,5 +3,5 @@ billing:
   payment-timeout-seconds: 30
 
 feature:
-  gst-v2: true
-  auto-invoice: false
+  gst-v2: false
+  auto-invoice: true

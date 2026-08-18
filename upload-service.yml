@@ -8,5 +8,5 @@ upload:
     - json
     - pdf
 feature:
-  async-upload: true
-  virus-scan: false
+  async-upload: false
+  virus-scan: true

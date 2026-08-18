@@ -1,4 +1,7 @@
 billing:
   retry-count: 3
-  payment-timeout: 30
-  max-concurrent-jobs: 25
+  payment-timeout-seconds: 30
+
+feature:
+  gst-v2: true
+  auto-invoice: false

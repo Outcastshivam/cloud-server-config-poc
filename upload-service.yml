@@ -1,2 +1,8 @@
 upload:
   max-file-size: 200MB
+  chunk-size: 10MB
+  parallel-upload: true
+  allowed-types:
+    - csv
+    - xlsx
+    - json

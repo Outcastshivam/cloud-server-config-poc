@@ -1,5 +1,5 @@
 upload:
-  max-file-size: 200MB
+  max-file-size: 100MB
   chunk-size: 10MB
   parallel-upload: true
   allowed-types:

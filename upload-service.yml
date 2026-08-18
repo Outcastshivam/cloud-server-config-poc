@@ -6,3 +6,6 @@ upload:
     - csv
     - xlsx
     - json
+feature:
+  async-upload: true
+  virus-scan: false

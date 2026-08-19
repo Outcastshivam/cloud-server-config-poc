@@ -1,12 +1,15 @@
 upload:
+  bucket-name: upload-bucket
   max-file-size: 100MB
-  chunk-size: 10MB
   parallel-upload: true
   allowed-types:
+    - pdf
     - csv
     - xlsx
-    - json
-    - pdf
+  max-chunk-size-mb: 20
+  upload-timeout: 10m
+  
 feature:
-  async-upload: false
-  virus-scan: true
+  flags:
+    async-upload: true
+    virus-scan: true

@@ -8,5 +8,5 @@ reporting:
     - CSV
 
 feature:
-  dashboard-v2: false
+  dashboard-v2: true
   scheduled-export: true

@@ -1,4 +1,12 @@
 reporting:
-  refresh-interval: 15
   max-records: 20000
   export-format: PDF
+  refresh-interval-minutes: 15
+  allowed-formats:
+    - PDF
+    - EXCEL
+    - CSV
+
+feature:
+  dashboard-v2: false
+  scheduled-export: true

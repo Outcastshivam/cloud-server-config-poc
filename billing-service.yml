@@ -1,7 +1,8 @@
 billing:
   retry-count: 3
-  payment-timeout-seconds: 30
+  payment-timeout-seconds: 120
 
 feature:
-  gst-v2: false
-  auto-invoice: true
+  flags:
+    gst-v2: true
+    auto-invoice: true
